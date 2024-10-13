@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>80's Retro Pong</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/pong.css'>
+    
+</head>
+<body>
+    
+    <div id="score">0 : 0</div>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <div id="gameOver">GAME OVER</div>
+    <button id="restartBtn">RESTART</button>
+    <div id="instructions">
+        <p>JUGADOR 1: Usa el ratón para mover la paleta izquierda</p>
+        <p>JUGADOR 2: Usa 'W' para subir y 'S' para bajar la paleta derecha</p>
+    </div>
+    <div id="maxScoreSelector">
+        <p>Selecciona la puntuación máxima:</p>
+        <button class="scoreBtn" data-score="3">3</button>
+        <button class="scoreBtn selected" data-score="5">5</button>
+        <button class="scoreBtn" data-score="10">10</button>
+    </div>
+
+    <script src='js/pong.js'></script>    
+</body>
+</html>
