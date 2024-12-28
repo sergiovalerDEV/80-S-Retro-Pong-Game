@@ -1,4 +1,4 @@
-# 🕹️ 80s Pong Game
+# 🕹️ Retro Pong 80s Style
 
 ## 🎮 What is this?
 
